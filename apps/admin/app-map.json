@@ -1,0 +1,12 @@
+[
+  {
+    "name": "news-app",
+    "port": 3003,
+    "route": "/"
+  },
+  {
+    "name": "main-app",
+    "port": 3002,
+    "route": "/news"
+  }
+]
