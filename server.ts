@@ -7,7 +7,7 @@ import path from "path";
 
 const fastify = Fastify();
 
-type AppType = { 
+type AppType = {
     name: string;
     port: number;
     route: string;
@@ -25,8 +25,6 @@ try {
     console.error("❌ Failed to read app-map.json", e);
     process.exit(1);
 }
-
-console.log('appMap: ', appMap);
 
 const subApps = appMap?.filter((app: AppType) => app.route !== '/');
 const mainApp = appMap?.find((app: AppType) => app.route === '/');

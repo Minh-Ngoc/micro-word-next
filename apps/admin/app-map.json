@@ -2,11 +2,11 @@
   {
     "name": "news-app",
     "port": 3003,
-    "route": "/"
+    "route": "/news"
   },
   {
     "name": "main-app",
     "port": 3002,
-    "route": "/news"
+    "route": "/"
   }
 ]
