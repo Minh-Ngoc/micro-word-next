@@ -1,4 +1,4 @@
-import {useState} from "react";
+import { useState } from "react";
 
 // Define the type for the micro-frontend configuration item
 interface MicroFrontendConfig {

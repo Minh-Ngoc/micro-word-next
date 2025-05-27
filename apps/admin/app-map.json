@@ -1,12 +1,16 @@
 [
   {
-    "name": "news-app",
-    "port": 3003,
-    "route": "/news"
-  },
-  {
     "name": "main-app",
+    "description": "Bucloud",
+    "preview": "bucloud.png",
     "port": 3002,
     "route": "/"
+  },
+  {
+    "name": "news-app",
+    "description": "Bucloud",
+    "preview": "vnexpress.png",
+    "port": 3003,
+    "route": "/tin-tuc"
   }
 ]
