@@ -1,5 +1,4 @@
-import Header from "@/components/layout/header";
-import ThemeCard from "./theme-card";
+import Header from "../../../components/layout/header";
 import { useState } from "react";
 import AddUI from "./add-ui";
 interface Theme {
